@@ -3,27 +3,7 @@
 Detect **smiles** on faces using **OpenCV Haar Cascades**, wrapped in a clean **Streamlit** UI.  
 Supports **Realtime via WebRTC** (live webcam) and **Snapshot/Upload** (take a photo or upload an image).
 
----
-
-## Table of Contents
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Requirements](#requirements)
-- [Quickstart](#quickstart)
-- [How It Works](#how-it-works)
-- [App Usage](#app-usage)
-- [Project Structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Deployment](#deployment)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Privacy](#privacy)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
-## ✨ Features
+## Features
 
 - 🔴 **Realtime (WebRTC)**: Process frames directly from your webcam; draw face boxes and a `Smiling :D` label.
 - 📷 **Snapshot/Upload**: Use the browser camera to take a photo or upload a local image for detection.
@@ -31,26 +11,14 @@ Supports **Realtime via WebRTC** (live webcam) and **Snapshot/Upload** (take a p
 - 🧱 **Zero extra assets**: Haar cascade XMLs are loaded from `cv2.data.haarcascades` (bundled with OpenCV).
 - 🪶 Lightweight and simple—great for demos, labs, or quick proofs-of-concept.
 
----
+## Demos:
 
-## 🖼️ Screenshots
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/65c6c208-5d6a-4fed-83ac-f00a5ccfb196" />
+<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/e980ff72-9216-43c0-af92-b73026276ef0" />
+https://github.com/user-attachments/assets/3f6a7b26-c92b-44e7-8cd0-f13cc2988e81
 
-_(Optional: add GIFs or images here)_
 
-- Realtime WebRTC detection with FPS overlay.
-- Snapshot/Upload results with bounding boxes and labels.
-
----
-
-## 🧰 Requirements
-
-- **Python**: 3.8+
-- **OS**: Windows / macOS / Linux
-- **Browser**: Modern browser with WebRTC support (Chrome/Edge/Firefox/Safari)
-
----
-
-## 🚀 Quickstart
+## How to install:
 
 > Using a virtual environment is recommended for clean, reproducible installs.
 
